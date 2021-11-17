@@ -1,5 +1,4 @@
-package com.careerdevs;
-
+package com.careerdevs.apod;
 
 import org.springframework.web.bind.annotation.RestController;
 
