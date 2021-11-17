@@ -14,7 +14,6 @@ public class APODController {
 
     @Autowired
     private Environment env;
-//    private static final String MY_API_KEY = env.getProperty("api.key");
 
     @GetMapping("/apodtest")
     public String apodTest() {
