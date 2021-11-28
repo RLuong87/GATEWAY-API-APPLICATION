@@ -2,9 +2,10 @@ package com.careerdevs.weather;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-//@JsonInclude(JsonInclude.Include.NON_NULL)
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Weather {
 
+//    private List<> weather;
     private int id;
     private String cityName;
     private long zipcode;
