@@ -1,5 +1,6 @@
-package com.careerdevs.dogceo;
+package com.careerdevs.dogceo.controllers;
 
+import com.careerdevs.dogceo.models.DogCeoModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;

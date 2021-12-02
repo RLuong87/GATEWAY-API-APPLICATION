@@ -1,4 +1,4 @@
-package com.careerdevs.apod;
+package com.careerdevs.apod.models;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

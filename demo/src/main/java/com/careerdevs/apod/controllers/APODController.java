@@ -1,5 +1,6 @@
-package com.careerdevs.apod;
+package com.careerdevs.apod.controllers;
 
+import com.careerdevs.apod.models.APOD;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,7 +29,7 @@ public class APODController {
     @GetMapping("/nasa")
     public APOD apodInfo(RestTemplate restTemplate) {
 
-        String URL = "https://api.nasa.gov/planetary/apod?api_key=" + env.getProperty("api.key");
+        String URL = "https://api.nasa.gov/planetary/apod?api_key=" + env.getProperty("nasa.key");
 
         return restTemplate.getForObject(URL, APOD.class);
     }

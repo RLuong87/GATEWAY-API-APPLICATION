@@ -1,4 +1,4 @@
-package com.careerdevs.dogceo;
+package com.careerdevs.dogceo.models;
 
 
 public class DogCeoModel {
